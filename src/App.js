@@ -1,10 +1,11 @@
 import './App.css';
+import Jobs from './pages/Jobs';
 
 function App() {
 
   return (
     <div className='max-w-7xl mx-auto px-12'>
-      <h1 className='text-5xl text-center py-16'>Job Opening Sites</h1>
+      <Jobs></Jobs>
     </div>
   );
 }
