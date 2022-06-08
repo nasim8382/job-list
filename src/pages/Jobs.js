@@ -8,7 +8,7 @@ const Jobs = () => {
     fetch("http://refertest.pythonanywhere.com/job/openings", {
       method: "GET",
       Headers: {
-        tid: 3441,
+        "tid": 3441
       },
     })
       .then((res) => res.json())
