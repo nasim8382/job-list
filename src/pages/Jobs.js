@@ -5,7 +5,7 @@ const Jobs = () => {
     const [jobs, setJobs] = useState([]);
 
   useEffect(() => {
-    fetch("http://refertest.pythonanywhere.com/job/openings", {
+    fetch("https://refertest.pythonanywhere.com/job/openings", {
       method: "GET",
       Headers: {
         "tid": 3441
