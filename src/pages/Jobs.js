@@ -24,7 +24,7 @@ const Jobs = () => {
         <table className="table w-full">
           <thead>
             <tr>
-              <th></th>
+              <th>No</th>
               <th>Designation</th>
               <th>Company Name</th>
               <th>Job Location</th>

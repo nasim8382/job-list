@@ -9,7 +9,11 @@ const Job = ({job, index}) => {
         <th>{designation}</th>
         <th>{company}</th>
         <th>{location}</th>
+        {
+        min_experience === 0 ? 
+        <th>Fresher</th> : 
         <th>{min_experience}</th>
+        }
         <th>{skills.join(" , ")}</th>
       </tr>
     );
